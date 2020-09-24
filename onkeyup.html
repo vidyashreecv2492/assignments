@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onkeyup</title>
+</head>
+<body>
+    <script>
+        function functionup()  {
+            var name=document.getElementById("uname").value;
+            document.getElementById("text").innerHTML=name;
+            
+        }
+    </script>
+    <p>Enter Name: <p id="text"></p></p>
+    <input type="text" id="uname" onkeyup="functionup()">
+  
+</body>
+</html>
